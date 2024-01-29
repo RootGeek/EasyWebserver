@@ -39,7 +39,7 @@ Why You Might Need This:
 
 Author:
 
-                                                This project is authored by RootGeek.
+                                      This project is authored by RootGeek.
 
 ![Bild](https://drive.google.com/uc?id=15MAtccshCySXvVfy8GSNE0JUH-mbQ14a)
 
