@@ -6,7 +6,7 @@
 Usage:
 
 ### 1. Clone the Repository:
-- git clone https://github.com/your-username/your-repository.git
+- git clone https://github.com/RootGeek/EasyWebserver.git
 
 ### 2. Install Python:
    - Ensure that Python is installed on your device.
