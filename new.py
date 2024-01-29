@@ -9,16 +9,16 @@ class WebServerApp:
         self.root = root
         self.root.title("Python Website Hosting")
         self.root.geometry("780x520")
-        self.root.configure(bg="#333333")  # Hintergrundfarbe des Fensters
+        self.root.configure(bg="#333333") 
         
-        # Canvas für die Benutzeroberfläche
+       
         self.canvas = tk.Canvas(self.root, width=780, height=520, bg="#333333", highlightthickness=0)
         self.canvas.pack(fill=tk.BOTH, expand=True)
 
-        # Hintergrundbild einbinden
+        
         self.set_background_image()
         
-        # Pfad zur Website-Ressource
+       
         self.path_frame = tk.Frame(self.canvas, bg="#333333")
         self.path_frame.place(relx=0.1, rely=0.2, relwidth=0.8, relheight=0.1)
         
@@ -31,7 +31,7 @@ class WebServerApp:
         self.browse_button = tk.Button(self.path_frame, text="Durchsuchen", command=self.browse_path, font=("Arial", 14))
         self.browse_button.pack(side=tk.LEFT, padx=5, pady=5)
         
-        # Port
+     
         self.port_frame = tk.Frame(self.canvas, bg="#333333")
         self.port_frame.place(relx=0.1, rely=0.35, relwidth=0.8, relheight=0.1)
         
@@ -41,7 +41,7 @@ class WebServerApp:
         self.port_entry = tk.Entry(self.port_frame, font=("Arial", 14))
         self.port_entry.pack(side=tk.LEFT, padx=5, pady=5, fill=tk.BOTH, expand=True)
         
-        # Buttons
+        
         self.button_frame = tk.Frame(self.canvas, bg="#333333")
         self.button_frame.place(relx=0.1, rely=0.5, relwidth=0.8, relheight=0.1)
         
@@ -58,13 +58,13 @@ class WebServerApp:
         self.ngrok_button.pack(side=tk.LEFT, padx=5, pady=5, fill=tk.BOTH, expand=True)
 
     def set_background_image(self):
-        # Bestimme den Pfad zum aktuellen Skriptverzeichnis
+        
         script_dir = os.path.dirname(os.path.abspath(__file__))
         image_path = os.path.join(script_dir, "picture.jpg")
         
-        # Überprüfe, ob das Bild existiert
+       
         if os.path.exists(image_path):
-            # Hintergrundbild einbinden
+           
             self.background_image = Image.open(image_path)
             self.background_photo = ImageTk.PhotoImage(self.background_image)
             self.canvas.create_image(0, 0, anchor="nw", image=self.background_photo)
