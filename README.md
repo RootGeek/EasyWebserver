@@ -1,29 +1,30 @@
-Easy Python WebServer with Ngrok
+# Easy Python WebServer with Ngrok
 
-This repository contains a simple Python script that allows you to set up a local web server and expose it to the internet using Ngrok.
+
+## This repository contains a simple Python script that allows you to set up a local web server and expose it to the internet using Ngrok.
 
 Usage:
 
-1. Clone the Repository:
-   - git clone https://github.com/your-username/your-repository.git
+### 1. Clone the Repository:
+- git clone https://github.com/your-username/your-repository.git
 
-2. Install Python:
+### 2. Install Python:
    - Ensure that Python is installed on your device.
 
-3. Install Ngrok:
+### 3. Install Ngrok:
    - Create an account on Ngrok (https://ngrok.com/) and download the Ngrok executable. Make sure to add Ngrok to your system's PATH.
 
-4. Run the Script:
-   - Navigate to the cloned repository directory and run the Python script. Provide the path to your website resources and specify a port number.
-   - Command: python web_server.py
+### 4. Run the Script:
+ - Navigate to the cloned repository directory and run the Python script. Provide the path to your website resources and specify a port number.
+ - Command: python web_server.py
 
-5. Start the Server:
-   - Click on the "Start" button to start the server. It will serve your website resources on the specified port.
+### 5. Start the Server:
+ - Click on the "Start" button to start the server. It will serve your website resources on the specified port.
 
-6. Optional: Expose with Ngrok:
+### 6. Optional: Expose with Ngrok:
    - Click on the "Expose with Ngrok" button to start Ngrok, which will expose your local server to the internet.
 
-7. Stop the Server:
+### 7. Stop the Server:
    - Click on the "Stop" button to stop the server when you're done.
 
 Additional Software Required:
@@ -38,4 +39,7 @@ Why You Might Need This:
 
 Author:
 
-This project is authored by RootGeek.
+                                                This project is authored by RootGeek.
+
+![Bild](https://drive.google.com/uc?id=15MAtccshCySXvVfy8GSNE0JUH-mbQ14a)
+
